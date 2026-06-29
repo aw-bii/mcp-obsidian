@@ -1,4 +1,5 @@
 mod config;
+mod parse;
 
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
